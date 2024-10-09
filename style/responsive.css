@@ -1,0 +1,184 @@
+@media (max-width:400px){
+    body{
+        background-color: white;
+    }
+    .container{
+        height: 2900px;
+    }
+    nav{
+        width: 335px
+    }
+    nav ul{
+        display: none;
+    }
+    nav p{
+        display: none;
+    }
+    nav .icon{
+        display: block;
+        width: 24px;
+    }
+    header{
+        margin-top: 40px;
+        height: 300px;
+    }
+    header pre:nth-child(1){
+        font-size: 26px;
+    }
+    header pre:nth-child(2){
+        font-size: 14px;
+        top: 140px;
+        left: 30px;
+    }
+    header .header__items{
+        top: 150px;
+        left: 0;
+        width: 26px;
+    }
+    header .header__item{
+        top: 220px;
+        left: 0;
+        left: 265px;
+        width: 69px;
+        height: 69px;
+    }
+    section{
+        height: 410px;
+    }
+    section .img{
+        display: none;
+    }
+    section .info img{
+        width: 335px;
+        height: 246px;
+    }
+    section .info p{
+        font-size: 18px;
+    }
+    section .info pre{
+        font-size: 13.5px;
+        padding-top: 13px;
+    }
+    section .info button{
+        width: 144px;
+        height: 36px;
+        font-size: 14;
+        border-radius: 20px 20px;
+    }
+    .information{
+        margin-top: 70px;
+        height: 170px;
+    }
+    .information div:nth-child(1) pre{
+        font-family: inter;
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .information div:nth-child(2) pre{
+        font-family: inter;
+        font-size: 14px;
+        font-family: 600;
+        position: absolute;
+        top: 0;
+        left: -200px;
+        top: 70px;
+    }
+    .Our_team{
+        margin-top: 50px;
+        height: 1100;
+    }
+    .Our_team header{
+        height: 160px;
+    }
+    .Our_team header pre:nth-child(1){
+        font-size: 24px;
+    }
+    .Our_team header pre:nth-child(2){
+        font-size: 11px;
+        top: 110px;
+    }
+    .Our_team .profile__box{
+            width: 100%;
+            height: 541px;
+            /* border: 1px solid black; */
+            margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .Our_team .profile__box div img{
+            width: 329px;
+            height: 244px;
+        }
+        .Our_team .profile__box div .social pre{
+            font-family: inter;
+            font-size: 16px;
+            font-family: 600;
+            position: absolute;
+        }
+        .Our_team .profile__box div .social p{
+            font-family: inter;
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--kulrang);
+            position: absolute;
+            top: 0;
+            top: 36px;
+        }.Our_team .profile__box .roger{
+            display: none;
+        }
+        .Our_team main{
+            margin-top: 170px;
+        }
+        .Our_team main pre:nth-child(1){
+            font-family: inter;
+            font-size: 24px;
+            font-weight: 600;
+        }
+        .Our_team main .text{
+            font-family: inter;
+            font-size: 12px;
+            font-weight: 500;
+            color: var(--kulrang);
+            position: absolute;
+            top: 0;
+            top: 70px;
+        }
+        footer{
+            height: 480px;
+        }
+        footer header .think{
+            font-size: 24px;
+        }
+        footer header .text{
+            display: block;
+            left: 0;
+            top: 40px;
+            font-size: 10px;
+            line-height: 22px;
+        }
+        footer header button{
+            width: 132px;
+            height: 40px;
+            top: 100px;
+            left: 0;
+        }
+        footer footer img{
+            height: 44px;
+            width: 20px;
+        }
+        footer footer .brend pre{
+            font-size: 15px;
+            top: 90px;
+        }
+        footer footer{
+            height: 200px;
+        }
+        footer footer .brend{
+            height: 200px;
+        }
+        footer footer .menus{
+            display: none;
+            height: 200px;
+        }
+    }

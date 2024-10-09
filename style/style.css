@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --kulrang:#7E8492;
+    --qora:black;
+    --oq:white;
+    --ochqora:#1D1E25;
+}
+.container{
+    width: 90%;
+    height: 4020px;
+    /* border: 2px solid black; */
+    margin: 0 auto;
+    max-width: 1320px;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    font-family: inter;
+    font-weight: 500;
+    font-size: 16px;
+    padding-left: 500px;
+}
+nav p{
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 600;
+    border-bottom: 3px solid black;
+}
+nav .icon{
+    display: none;
+}
+header{
+    width: 100%;
+    height: 800px;
+    /* border: 2px solid black; */
+    margin-top: 70px;
+    position: relative;
+}
+header pre:nth-child(1){
+    font-family: inter;
+    position: absolute;
+    font-size: 72px;
+    font-weight: 700;
+    top: 0;
+    left: 0;
+}
+header pre:nth-child(2){
+    font-family: inter;
+    position: absolute;
+    font-weight: 600;
+    font-size: 32px;
+    top: 0;
+    left: 0;
+    top: 451px;
+    left: 189px;
+}
+header .header__items{
+    position: absolute;
+    width: 76px;
+    top: 0;
+    left: 0;
+    top: 461px;
+    left: 85px;
+}
+header .header__item{
+    position: absolute;
+    width: 162px;
+    height: 162px;
+    top: 454px;
+    left: 1050px;
+}
+section{
+    width: 100%;
+    height: 634px;
+    /* border: 2px solid black; */
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+section div{
+    width: 502px;
+    height: 100%;
+    /* background-color: yellow; */
+}
+section .img{
+    background-image: url(../images/Rectangle\ 13.png);
+    background-size: cover;
+}
+section .info{
+    display: flex;
+    flex-direction: column;
+}
+section .info img{
+    width: 502px;
+    height: 370px;
+}
+section .info p{
+    font-family: inter;
+    font-size: 32px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+section .info pre{
+    font-family: inter;
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--kulrang);
+    padding-top: 17px;
+}
+section .info button{
+    width: 175px;
+    height: 56px;
+    border: none;
+    background-color: var(--qora);
+    color: var(--oq);
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 50px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section .info button:active{
+    background-color: var(--kulrang);
+}
+.information{
+    width: 100%;
+    height: 150px;
+    /* border: 2px solid black; */
+    margin-top: 190px;
+    display: flex;
+    justify-content: space-between;
+}
+.information div{
+    width: 600px;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    position: relative;
+}
+.information div:nth-child(1) pre{
+    font-family: inter;
+    font-size: 56px;
+    font-weight: 600;
+}
+.information div:nth-child(2) pre{
+    font-family: inter;
+    font-size: 24px;
+    font-family: 600;
+    position: absolute;
+    top: 0;
+    top: 10px;
+}
+.Our_team{
+    width: 100%;
+    height: 1150px;
+    /* border: 2px solid black; */
+    margin-top: 150px;
+}
+.Our_team header{
+    width: 100%;
+    height: 320px;
+    /* border: 1px solid red; */
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.Our_team header pre:nth-child(1){
+    font-family: inter;
+    font-size: 56px;
+    font-weight: 600;
+}
+.Our_team header pre:nth-child(2){
+    font-family: inter;
+    font-size: 18px;
+    font-weight: 500;
+    color:  var(--kulrang);
+    position: absolute;
+    left: 0;
+    top: 0;
+    top: 230px;
+}
+.Our_team .profile__box{
+    width: 100%;
+    height: 541px;
+    /* border: 1px solid black; */
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Our_team .profile__box div{
+    width: 379px;
+    height: 541px;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+}
+.Our_team .profile__box div img{
+    width: 379px;
+    height: 434px;
+}
+.Our_team .profile__box div .social{
+    width: 100%;
+    height: 70px;
+    /* background-color: aqua; */
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.Our_team .profile__box div .social pre{
+    font-family: inter;
+    font-size: 24px;
+    font-family: 600;
+    position: absolute;
+}
+.Our_team .profile__box div .social p{
+    font-family: inter;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--kulrang);
+    position: absolute;
+    top: 0;
+    top: 36px;
+}
+.Our_team main{
+    width: 100%;
+    height: 174px;
+    /* border: 2px solid blue; */
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.Our_team main .request{
+    font-family: inter;
+    font-size: 55px;
+    font-weight: 600;
+}
+.Our_team main .text{
+    font-family: inter;
+    font-weight: 500;
+    color: var(--kulrang);
+    position: absolute;
+    top: 0;
+    right: 0;
+    top: 25px;
+}
+footer{
+    width: 100%;
+    height: 600px;
+    background-color: var(--ochqora);
+    margin-top: 70px;
+}
+footer header{
+    width: 90%;
+    height: 170px;
+    margin: 100px auto;
+    /* border: 2px solid white; */
+    position: relative;
+}
+footer header .think{
+    font-family: inter;
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--oq);
+    position: absolute;
+}
+footer header .text{
+    font-family: inter;
+    font-weight: 500;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: var(--kulrang);
+    line-height: 30px;
+    top: 90px;
+    font-size: 18px;
+}
+footer header button{
+    width: 177px;
+    height: 56px;
+    border: none;
+    border-radius: 50px 50px;
+    background-color: var(--oq);
+    color: var(--qora);
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    right: 0;
+    top: 0;
+    top: 30px;
+    right: 30px;
+}
+footer header button:active{
+    background-color: var(--kulrang);
+}
+footer footer{
+    width: 90%;
+    height: 270px;
+    /* border: 2px solid white; */
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-between;
+}
+footer footer .brend{
+    width: 30%;
+    height: 270px;
+    /* border: 2px solid white; */
+    position: relative;
+}
+footer footer .brend img{
+    position: absolute;
+    top: 0;
+    top: 30px;
+    left: 0;
+    width: 170px;
+}
+footer footer .brend pre{
+    position: absolute;
+    top: 130px;
+    left: 0;
+    font-family: inter;
+    font-size: 19px;
+    font-weight: 500;
+    color: var(--kulrang);
+}
+footer footer .menus{
+    width: 65%;
+    height: 270px;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: space-around;
+}
+footer footer .menus ul{
+    list-style: none;
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--kulrang);
+}
+footer footer .menus ul li{
+    margin-top: 15px;
+}
+
